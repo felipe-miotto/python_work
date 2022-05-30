@@ -5,9 +5,9 @@ pizzas.append('banana')
 friends_pizzas.append('calabresa')
 
 print("My favorite pizzas are:")
-for pizza in pizzas:
-    print(f"- {pizza}")
+for pizzas in pizzas:
+    print(pizzas.title())
 
 print("\nMy friend's favorites pizzas are:")
-for pizza in friends_pizzas:
-    print(f"- {pizza}")
+for pizzas in friends_pizzas:
+    print(pizzas.title())
